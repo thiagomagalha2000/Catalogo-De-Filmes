@@ -1,0 +1,55 @@
+button{
+    margin-left: 73px;
+    margin-top: 20px;
+}
+
+.content_top {
+    padding: 0px 20px;
+    background-color: white;
+    border: 1px solid #EBE8E8;
+    margin-top:22px;
+    margin-left: 89px;
+    margin-right: 205px;
+    margin-bottom: 10px;    
+}
+
+h3 {
+    text-align: center;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-group{
+    margin-left: 89px;
+    margin-right: 205px;
+}
+
+h2{
+    font-weight: 900;
+}
+
+.form-check-label{
+    margin-left: 18px;
+    margin-top: 1px;
+}
+
+.form-check-input{
+    margin-left: 2px;
+}
+
+.btn-primary{
+    margin-left: 89px;
+}
+
+.btn-danger{
+    margin-top: 15px;
+    margin-left: 607px;
+    margin-right: 5px;
+    font-size: 100%;
+}
+
+.btn-success{
+    margin-top: 15px;
+    font-size: 100%;
+}

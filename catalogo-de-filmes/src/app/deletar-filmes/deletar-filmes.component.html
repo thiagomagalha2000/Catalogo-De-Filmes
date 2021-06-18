@@ -1,0 +1,34 @@
+<button tabindex="0" aria-label="Botão que volta para a pagina princial" routerLink="/filmes">Voltar</button>
+
+<div class="content_top">
+    <h3 classe="filme" tabindex="0" aria-label="Delete um filme" required>
+        DELETE UM FILME
+    </h3>
+    <div class="pesquisa">
+        <input tabindex="0" aria-label="Campo de texto para a busca dos filmes pelo seu nome"
+        (keyup)="pesquisarFilmesPeloNome($event)" placeholder="BUSCAR FILME PELO NOME" style="width:320px;">
+    </div>
+    <table class="table" tabindex="0" aria-label="Tabela com a lista de filmes com o nome, o ano, os gêneros e o botão de deletar">
+        <thead class="thead-light">
+            <tr>
+                <th tabindex="0" aria-label="Coluna do nome dos filmes">NOME DO FILME</th>
+                <th tabindex="0" aria-label="Coluna do ano dos filmes">ANO DO FILME</th>
+                <th tabindex="0" aria-label="Coluna dos gêneros dos filmes">GÊNEROS DO FILME</th>
+                <th tabindex="0" aria-label="Coluna para deletar os filmes">DELETAR O FILME</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let filme of filmes">
+                <td tabindex="0">{{filme.title}}</td>
+                <td tabindex="0">{{filme.release_date}}</td>
+                <td tabindex="0">
+                    <a *ngFor="let genre of filme?.genres">{{genre?.nomeDoGenero}}<br></a>
+                </td>
+                <td>
+                    <button class="btn btn-outline-danger" routerLink="/deletandofilmes/{{filme.id}}"
+                        tabindex="0" aria-label="Botão que vai para a pagina de deletar o filme escolhido">DELETAR</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,131 @@
+.alto-contraste div {
+    background-color: black;
+}
+
+.alto-contraste body {
+    background-color: black;
+}
+
+.alto-contraste a{ 
+    color: white;
+}
+
+.alto-contraste b{
+    color: white;
+}
+
+.alto-contraste ul{
+    color: white;
+}
+
+.alto-contraste .content_top h3 {
+    color: black !important;
+}
+
+.alto-contraste app-top-bar{
+    background-color: white;
+}
+
+.alto-contraste app-top-bar .topo{
+    background-color: white;
+    color: black;
+}
+
+.alto-contraste app-top-bar h1{
+    background-color: white;
+    color: black;
+}
+
+.alto-contraste app-top-bar .conjunto_de_butoes{
+    background-color: white;
+}
+
+.alto-contraste button{
+    background-color: white;
+    color: black;
+}
+
+.alto-contraste .titulo{
+    color: white;
+}
+
+.alto-contraste .lançamento{
+    color: white;
+}
+
+.alto-contraste .titulo_original_tamanho{
+    color: white;
+}
+
+.alto-contraste .nomes_dos_generos{
+    color: white;
+}
+
+.alto-contraste .tamanho_da_data{
+    color: white;
+}
+
+.alto-contraste .tamanho_da_sinopse{
+    color: white;
+}
+
+.alto-contraste .tamanho_tempo{
+    color: white;
+}
+
+.alto-contraste .page-item .page-link{
+    background-color: white;
+}
+
+.alto-contraste h2{
+    color: white;
+}
+
+.alto-contraste .dados_novos{
+    color:white;
+}
+
+.alto-contraste h5{
+    color: black;
+}
+
+.alto-contraste .btn-danger{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.alto-contraste .btn-success{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.alto-contraste .btn-primary{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.alto-contraste criar-filmes a{
+    color: white;
+}
+
+.alto-contraste label{
+    color: white;
+}
+
+.alto-contraste deletar-filmes .btn-outline-danger{
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+.btn:not(:disabled){
+    border-color: black;
+}
+
+.alto-contraste .toast-top-right{
+    background-color: white;
+    color: black;
+}

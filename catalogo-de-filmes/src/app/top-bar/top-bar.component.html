@@ -1,0 +1,47 @@
+<div class="topo">
+    <h1 tabindex="0" aria-label="O nome do site é Catalogo de Filmes">
+        CATALOGO DE FILMES  
+    </h1>
+</div>
+
+<div class="conjunto_de_butoes">
+    <button class="button" id="português" (click)="trocarIdiomaDaPagina('pt-BR')" 
+            tabindex="0" aria-label="Botão que traduzir a pagina para a lingua Portuguesa">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/720px-Flag_of_Brazil.svg.png" 
+        width="23px" height="22px" title="Português">
+    </button>
+    <button class="button" id="ingles" (click)="trocarIdiomaDaPagina('en-US')" 
+            tabindex="0" aria-label="Botão que traduzir a pagina para a lingua Inglesa">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" 
+        width="23px" height="22px" title="Inglês">
+    </button>
+    <button class="button" id="espanhol" (click)="trocarIdiomaDaPagina('es-ES')" 
+            tabindex="0" aria-label="Botão que traduzir a pagina para a lingua Espanhola">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg" 
+        width="23px" height="22px" title="Espanhol">
+    </button>
+    <button class="button" mat-flat-button (click)="trocarAltoContraste()" 
+            tabindex="0" aria-label="Botão que aplica na pagina o alto-contraste">
+        <i id="alto-contraste" class="material-icons whiteIcon" title="Alto Contraste" >
+            invert_colors
+        </i>
+    </button>
+    <button class="button" mat-flat-button (click)="mudarFonte(1)" 
+            tabindex="0" aria-label="Botão que aplica na pagina o aumento da fonte">
+        <i class="material-icons whiteIcon" title="Aumentar fonte">
+            add
+        </i>
+    </button>
+    <button class="button" mat-flat-button (click)="mudarFonte(0)" 
+            tabindex="0" aria-label="Botão que aplica na pagina a restauração da fonte">
+        <i class="material-icons whiteIcon" title="Redefinir fonte">
+            check
+        </i>
+    </button>
+    <button class="button" mat-flat-button (click)="mudarFonte(-1)" 
+            tabindex="0" aria-label="Botão que aplica na pagina a diminuição da fonte">
+        <i class="material-icons whiteIcon" title="Diminuir fonte">
+            remove
+        </i>
+    </button>
+</div>

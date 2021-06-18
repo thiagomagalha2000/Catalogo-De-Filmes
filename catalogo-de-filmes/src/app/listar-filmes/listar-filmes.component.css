@@ -1,0 +1,142 @@
+/*
+h2 {
+    margin-top: 20px;
+    font-size: 10px;
+}
+b{
+    font-size: 18px;
+}
+input{
+    color:navy;
+    width:100%;
+}
+
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+.search_box{
+    margin-left: 1148px;
+    margin-top: 15px;
+}
+
+.section{
+    margin-left: 100px;
+}
+
+.content_top {
+    padding: 0px 20px;
+    border: 1px solid #EBE8E8;
+    margin-top:60px;
+    margin-left: 100px;
+    margin-right: 211px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.content_top h3{
+    color: #FC7D01;
+}
+*/
+
+.search_box{
+    margin-left: 89px;
+    margin-top: 25px;
+    margin-bottom: -10px;
+}
+
+.CriarDeletarAtualizar{
+    margin-top: 5px;
+    margin-left: 89px;
+}
+
+.btn-primary{
+    margin-top: -10px;
+    font-size: 100%;
+}
+
+.btn-danger{
+    margin-top: -9px;
+    font-size: 100%;
+    margin-left: 4px;
+}
+
+.btn-success{
+    margin-top: -9px;
+    font-size: 100%;
+    margin-left: 4px;
+}
+
+.pagination{
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 470px;
+}
+
+.page-link{
+    margin-top: 25px;
+    background-color: #1976d2;
+    color: white;
+}
+
+.content_top {
+    padding: 0px 20px;
+    background-color: white;
+    border: 1px solid #EBE8E8;
+    margin-top:22px;
+    margin-left: 89px;
+    margin-right: 205px;
+    margin-bottom: 10px;    
+}
+
+h3 {
+    margin-left: 5px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+h4{
+    margin-top:-10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.section{
+    margin-left: 70px;
+    
+}
+.filmes {
+    text-align: center;
+    height: 200px;
+    width: 180px;
+}
+.titulo{
+    font-size: 100%;
+    font-weight: 1000;
+
+}
+.lançamento{
+    margin-top: 15px;
+    font-size: 70%;
+}
+
+img{
+    border: 1px solid #EBE8E8;
+}
+
+.grid_1_of_5 {
+    margin-left: 20px;
+    
+}
+
+button{
+    margin-left: 0px;
+    margin-top: 120px;
+    margin-bottom: 2px;
+}

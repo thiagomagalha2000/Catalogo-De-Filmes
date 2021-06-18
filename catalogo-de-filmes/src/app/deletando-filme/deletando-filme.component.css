@@ -1,0 +1,45 @@
+button{
+    margin-left: 73px;
+    margin-top: 20px;
+}
+
+.content_top {
+    padding: 0px 20px;
+    background-color: white;
+    border: 1px solid #EBE8E8;
+    margin-top:22px;
+    margin-left: 89px;
+    margin-right: 205px;
+    margin-bottom: 10px;    
+}
+
+h3 {
+    text-align: center;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    margin-bottom: 10px;
+}
+
+.content_top h3{
+    color: #FC7D01;
+}
+
+h2{
+    margin-left: 89px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.btn-danger{
+    margin-top: 0px;
+    margin-left: 89px;
+    margin-right: 5px;
+    font-size: 100%;
+}
+
+.btn-success{
+    margin-top: 0px;
+    margin-left: 2px;
+    font-size: 100%;
+}

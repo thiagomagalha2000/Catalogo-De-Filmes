@@ -1,0 +1,19 @@
+<button tabindex="0" aria-label="Botão que volta para a pagina da lista de atualização" 
+        routerLink="/deletarfilmes">Voltar</button>
+
+<div class="content_top">
+    <h3 tabindex="0">
+        DELETE O FILME: {{filme?.title}}
+    </h3>
+</div>
+
+<div>
+    <h2 tabindex="0" aria-label="Uma pergunta que diz TEM CERTEZA QUE VOCÊ QUER DELETAR O FILME, e logo abaixo tem dois botões">
+        TEM CERTEZA QUE VOCÊ QUER DELETAR O FILME "{{filme?.title}}"?
+    </h2>
+
+    <button class="btn btn-danger" routerLink="/deletarfilmes" tabindex="0"
+    aria-label="Botão que não deleta o filme e volta para a pagina de escolha de qual filme será deletado">NÃO</button>
+    <button class="btn btn-success" (click)="deletarUmFilme(filme.id)" 
+    tabindex="0" aria-label="Botão que deleta o filme">SIM</button>
+</div>

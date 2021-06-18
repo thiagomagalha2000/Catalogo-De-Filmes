@@ -1,0 +1,66 @@
+<button tabindex="0" aria-label="Botão que volta para a pagina da lista de atualização" 
+        routerLink="/atualizarfilmes">Voltar</button>
+
+<div class="content_top">
+    <h3 tabindex="0">
+        ATUALIZE O FILME: {{filme?.title}}
+    </h3>
+</div>
+
+<form (ngSubmit)="onSubmit()" [formGroup]="formularioDeFilme">
+    <div class="form-group">
+
+        <div class="dados_novos" tabindex="0">
+            ALTERE OS DADOS DO FILME "{{filme?.title}}"
+        </div>
+
+        <h2 for="nome_do_filme">NOME</h2>
+        <input type="text" name="nome" id="nome_do_filme" class="form-control"
+        tabindex="0" aria-label="Campo para digitar o nome do filme"
+        formControlName="nome_do_filme" placeholder="Digite o nome do filme" 
+        required>
+        <br>
+
+        <h2 for="sinopse_do_filme">SINOPSE</h2>
+        <input type="text" name="sinopse" id="sinopse_do_filme" class="form-control"
+        tabindex="0" aria-label="Campo para digitar a sinopse do filme"
+        formControlName="sinopse_do_filme" placeholder="Digite a sinope do filme" 
+        required>
+        <br>
+
+        <h2 for="lancamento_do_filme">LANÇAMENTO</h2>
+        <input type="date" name="lancamento" id="lancamento_do_filme" class="form-control"
+        tabindex="0" aria-label="Campo para digitar a data de lancamento do filme"
+        formControlName="lancamento_do_filme" min="1900-01-01" max="2100-12-31" 
+        required>
+        <br>
+
+        <h2 for="duracao_do_filme">DURAÇÃO</h2>
+        <input type="number" min="0" name="duracao" id="duracao_do_filme" class="form-control"
+        tabindex="0" aria-label="Campo para digitar a duração do filme em minutos"
+        aria-label="Digite a duração do filme" formControlName="duracao_do_filme"
+        placeholder="Digite a duracao do filme em minutos" required>
+        <br>
+
+        <h2 for="imagem_do_filme">IMAGEM</h2>
+        <input type="text" min="0" name="imagem" id="imagem_do_filme" class="form-control"
+        tabindex="0" aria-label="Campo para digitar a url da imagem do filme"
+        formControlName="imagem_do_filme" placeholder="Digite a url da imagem do filme" required>
+        <br>
+
+        <h2 for="categorias_do_filme">CATEGORIAS</h2>
+        <br>
+        <div *ngFor="let control of categoriasForm?.controls;let i=index">
+            <input class="form-check-input" (change)="getGenerosSelecionados()" 
+            tabindex="0" aria-label="Escolha atraves dos checkbox os generos do filme" 
+            [formControl]="control" type="checkbox">
+            <label formArrayName="categorias_do_filme" class="form-check-label" tabindex="0">
+                {{arrayDeGeneros[i].nomeDoGenero}}
+            </label>
+        </div>
+        <br>
+    </div>
+
+    <input class="btn btn-danger" type="reset" name="Limpar" value="Limpar" tabindex="0" aria-label="Botão que limpa todo o formulário">
+    <input class="btn btn-success" type="submit" name="Cadastrar" value="Atualizar" tabindex="0" aria-label="Botão que atualiza o filme">
+</form>

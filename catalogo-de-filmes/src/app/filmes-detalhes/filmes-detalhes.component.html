@@ -1,0 +1,53 @@
+<button tabindex="0" aria-label="Botão que volta para a pagina princial" routerLink="/filmes">Voltar</button>
+
+<div class="content_top">
+    <h3>
+        {{filme?.title}}
+    </h3>
+</div>
+
+<div>
+    <div class="imagem">
+        <h2>
+            <!--
+            <img src="https://image.tmdb.org/t/p/original{{filme.backdrop_path}}"
+            height="400" width="400">                            
+            -->
+            <img src="{{filme?.backdrop_path}}"
+            height="400" width="400">                            
+        </h2>
+    </div>
+</div>
+
+<div class="detalhes">
+    <diV class="titulo_original" tabindex="0">
+        <div style='text-align:justify'>
+            <b>TITULO ORIGINAL:</b> 
+            <div class="titulo_original_tamanho">
+                {{filme?.title}}
+            </div>
+        </div>
+    </diV>
+    <br>
+    <div class="genero" tabindex="0">
+        <b>GÊNERO:</b>
+        <div class="nomes_dos_generos" *ngFor="let genre of filme?.genres">{{genre?.nomeDoGenero}}</div>
+    </div>
+    <br>
+    <div class="data" tabindex="0">
+        <b>DATA DE LANÇAMENTO:  </b>
+        <div class="tamanho_da_data">{{filme?.release_date}}</div>
+    </div>
+    <br>
+    <div class="sinopse" tabindex="0">
+        <div style='text-align:justify'>
+            <b>SINOPSE: </b>
+            <div class="tamanho_da_sinopse">{{filme?.overview}}</div>    
+        </div>
+    </div>
+    <br>
+    <div class="tempo" tabindex="0">
+        <b>TEMPO: </b>
+        <div class="tamanho_tempo">{{filme?.runtime}} minutos</div>
+    </div>
+</div>

@@ -1,0 +1,63 @@
+button{
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+.content_top {
+    padding: 0px 20px;
+    background-color: white;
+    border: 1px solid #EBE8E8;
+    margin-top:34px;
+    margin-left: 89px;
+    margin-right: 222px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-weight: 900;
+    text-align: center;    
+}
+
+.content_top h3{
+    color: #FC7D01;
+}
+
+.imagem{
+    margin-left: 89px;
+}
+
+img{
+    border: 1px solid #EBE8E8;
+}
+
+.detalhes{
+    margin-left: 500px;
+    margin-top: -420px;
+}
+
+b{
+    font-weight: 1000;
+}
+
+.titulo_original{
+    margin-top: 30px;
+}
+
+.genero{
+    margin-top: 0px;
+}
+
+.data{
+    margin-top: 0px;
+}
+
+.sinopse{
+    margin-right: 222px;
+}
+
+.tempo{
+    margin-right: 290px;
+}

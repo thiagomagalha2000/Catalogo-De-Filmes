@@ -1,0 +1,19 @@
+.topo{
+    background-color: #1976d2;
+}
+
+h1{
+    margin-top: 0px;
+    color: white;
+}
+
+.conjunto_de_butoes{
+    background-color: #1976d2;
+}
+
+.button{
+    background-color: white;
+    border-color: black;
+    border:solid black 1px;
+    border-radius:20px;
+}
